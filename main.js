@@ -236,7 +236,7 @@ app.route("/register").get(function(req, res){
                 username: username,
                 password: password,
                 isVerified: false,
-                userType: userTypeEnums.admin
+                userType: userTypeEnums.customer
             })
             .then(function(){
         
